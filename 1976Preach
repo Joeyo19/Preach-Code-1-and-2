@@ -151,7 +151,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Placeholder...</p>",
+            "description_as_running_mate": "<p>NOT CURRENTLY PLAYABLE - IS LIKELY TO BE ADDED</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -174,7 +174,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>John Glenn became the first American to orbit the earth during the Space Race of the 1960s. Now serving as a Senator from Ohio, he could be crucial to winning that state in November. Unfortunately, his keynote speech at the national convention has just landed with a thud. He is relatively new to the Senate and still has some outsider appeal, and does not have a long history with any particular wing of the party.</p>",
+            "description_as_running_mate": "<p>NOT CURRENTLY PLAYABLE - MAY NOT BE ADDED</p><p>John Glenn became the first American to orbit the earth during the Space Race of the 1960s. Now serving as a Senator from Ohio, he could be crucial to winning that state in November. Unfortunately, his keynote speech at the national convention has just landed with a thud. He is relatively new to the Senate and still has some outsider appeal, and does not have a long history with any particular wing of the party.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -197,7 +197,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Henry \"Scoop\" Jackson is a Senator from Washington who also attempted to secure the 1976 Democratic nomination. He is a more traditional Democrat, favoring both high levels of social spending and a strong national defense policy. He is not popular with the left wing of the party, but would certainly help with moderates, and could swing his home state in the fall elections.</p>",
+            "description_as_running_mate": "<p>NOT CURRENTLY PLAYABLE - MAY NOT BE ADDED</p><p>Henry \"Scoop\" Jackson is a Senator from Washington who also attempted to secure the 1976 Democratic nomination. He is a more traditional Democrat, favoring both high levels of social spending and a strong national defense policy. He is not popular with the left wing of the party, but would certainly help with moderates, and could swing his home state in the fall elections.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
