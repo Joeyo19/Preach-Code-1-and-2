@@ -9486,7 +9486,7 @@ campaignTrail_temp.jet_data = [{
             }, 100);
         }
         return "<h3>Just enough</h3><p>That's what he had been telling himself. All he needed was one more vote than the other guy, but he knew he was lying to himself. Victory was nothing, winning was nothing. There needed to be dramatic shift in order to accomplish what he set out to do. This was a slight ripple for the status quo, perhaps that would be enough? No, America had survived ripples before. Kennedy, Eisenhower, Truman, Taft, Arthur... all of them. All do-gooders, inspirational but incremental reformers. He couldn't be that, he had to be more. But with this result? He may as well be just another nobody. He had congress, the House and Senate... so that was something. It was late... he had spent the day 'celebrating', he was getting ready to head home and rest. There's a noise, the landline is ringing. The voice on the other line is your secretary. 'Sir, assosciate director Felt on the line for you.' She puts him through, the two have a brief but meaningful conversation. And then, the man tells him something, something... hilarious. They laugh, the man on the other end congragulates him, and they bid their goodbyes.</p><p>At that moment, one he would never forget, Church stood up straight and laughed until the world forgot what silence was.</p>"
-         } else if (quickstats[0] >= 350 && quickstats[0]<531) { if (used != true) {
+         } else if (quickstats[0] >= 350 && quickstats[0]<500) { if (used != true) {
                 setInterval(function () {
                     used = true;
                     imgg = document.getElementsByClassName("person_image")[0];
@@ -9496,7 +9496,7 @@ campaignTrail_temp.jet_data = [{
                 }, 100);
             }
             return "<h3>'May 13th, 1988: Rubbery Figures defies political bias and delights'</h3><p>Opinion column by John Nicolson - Australian Broadcast Corporation.</p><p>I, like many others, was very concerned when Bob Somervaille decided to greenlight a new latenight parody about both domestic and international politics. I was met with a delightful surprise by the show's colourful and creative craftwork as well as a thoughtful and unique structure. The stories, separated into around 5 - 8 segments, star some notable political figures characterised by sock puppets including our own Bob Hawke, Treasurer Paul Keating, Opposition leader John Howard, former Queensland Premier Joh Bjelke-Petersen, Britain's Margaret Thatcher, President Paul Laxalt of the United States and more. The series has covered aspects of the previous federal election, Andrew Peacock's leadership challenges and Laxalt's tumultuous re-election campaign against Gary Hart. I'd recommend tuning in for some classic unbiased, unshaken and unrelenting political commentary for which our organisation is renowned for.</p>"
-            } else if (quickstats[0] >= 531) {if (used != true) {
+            } else if (quickstats[0] >= 500) {if (used != true) {
             setInterval(function () {
                 used = true;
                 imgg = document.getElementsByClassName("person_image")[0];
@@ -9506,7 +9506,7 @@ campaignTrail_temp.jet_data = [{
                 }, 100);
             }
         return "<h3>The death of atheism</h3><p>'You can't make an omelette... etcetera'</p><p>Looking back, all the way back, it all started with Church. The bad kind, obviously. No one knew better than him how to dismantle things. He had seven years to do as he pleased to the justice department, the intelligence agencies, the Nixon admin, the conservatives, the war-hawks, the non-believers and the status-quo. He had broken America on it's two-hundredth Birthday. Maybe for the better, as some would argue, but not for the good. Church had taken an idea and molded it into his own image, just as Johnson did, just as Roosevelt did, just as Coolidge, Wilson, Teddy, Cleveland... all of them had. Every one of them had built America into what it is today. And what is it today? Well it's alive, but perhaps on it's death bed. Church's death brought in Carter, who hadn't lead for eight months before Paul Laxalt kicked him out of office. Then came Gore, the pragmatist, followed by Daschle, then McCain, Clinton, Romney and now Obama. All believers, none of whom could live up to their ultimate predeccesor. All of different religious beliefs and all from the same faith. The death of atheism began when America stopped believing in itself and it's institutions and began to place it's faith in it's people. There will always be those who had no belief in god, but they weren't atheists. There will always be those without faith in religion. But they aren't atheists. No. Atheism is dead, not because of belief in god, but because everyone believes in Church."
-        } else if (quickstats[0] >= 531) { if (used != true) {
+        } else if (quickstats[0] >= 500) { if (used != true) {
             setInterval(function () {
                 used = true;
                 imgg = document.getElementsByClassName("person_image")[0];
