@@ -360,7 +360,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3530,
         "fields": {
             "question": 421,
-            "description": "Another day, another opportunity to chastise Nixon's behaviour and advocate for the need to curtail intelligence bureau's."
+            "description": "Another day, another opportunity to chastise Nixon's behaviour and advocate for the need to curtail intelligence bureaus."
         }
     },
     {
