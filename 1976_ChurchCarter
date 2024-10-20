@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 416,
         "fields": {
             "priority": 2,
-            "description": "As much as you love to boast that progressive rhetoric and populism won you the nomination, you wouldn't be here without Mo Udall. His decision to withdraw from the primary and endorse you in return for a future favour earned you the primary - how will you repay your debt to him? The last thing the campaign needs is trouble in Arizona.",
+            "description": "As much as you boast that progressive rhetoric and populism won you the nomination, you wouldn't be here without Mo Udall. His decision to withdraw from the primary and endorse you in return for a future favour earned you the primary - how will you repay your debt to him? The last thing the campaign needs is trouble in Arizona.",
             "likelihood": 1
         }
     },
@@ -40,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 431,
         "fields": {
             "priority": 3,
-            "description": "What is your position on the ERA?",
+            "description": "What is your position on the Equal Rights Amendment (ERA)?",
             "likelihood": 1
         }
     },
@@ -94,7 +94,7 @@ campaignTrail_temp.questions_json = [
         "pk": 434,
         "fields": {
             "priority": 3,
-            "description": "Oh no.... you've just gotten a call from Hamilton. He tells you to turn on the TV.",
+            "description": "Oh no... you've just gotten a call from Hamilton. He tells you to turn on the TV.",
             "likelihood": 1
         }
     },
@@ -184,7 +184,7 @@ campaignTrail_temp.questions_json = [
         "pk": 443,
         "fields": {
             "priority": 8,
-            "description": "After H.R. Haldeman's resignation from the Nixon administration; he took full responsibility for the conduct of several key White House officials and was convicted. Since then, there have been claims that Nixon was a co-conspirator How do you feel about the conduct of Richard Nixon? Do you believe the alleged activities of he and several White House officials?",
+            "description": "After H.R. Haldeman's resignation from the Nixon administration; he took full responsibility for the conduct of several key White House officials and was convicted. Since then, there have been claims that Nixon was a co-conspirator. Will you capitilise on these concerns?",
             "likelihood": 1
         }
     },
