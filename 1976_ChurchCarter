@@ -640,7 +640,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3635,
         "fields": {
             "question": 442,
-            "description": "We desperately need an exciting, bold new idea to win. If we're going to achieve what we must, saving the American people from tyranny; then we must voice our support for initiatives like these."
+            "description": "We desperately need an exciting, bold new idea to win. If we're going to save the American people from poverty, then we must voice our support for initiatives like these."
         }
     },
     {
@@ -9495,7 +9495,7 @@ campaignTrail_temp.jet_data = [{
                     }
                 }, 100);
             }
-            return "<h3>'May 13th, 1988: Rubbery Figures defies political bias and delights'</h3><p>Opinion column by John Nicolson - Australian Broadcast Corporation.</p><p>I, like many others, was very concerned when Bob Somervaille decided to greenlight a new political parody about both domestic and international punditry. I was met with a delightful surprise by the show's colourful and creative craftwork as well as a thoughtful and unique structure. The stories, separated into around 5 - 8 segments, star some notable political figures characterised by sock puppets including our own Bob Hawke, Treasurer Paul Keating, Opposition leader John Howard, former Queensland Premier Joh Bjelke-Petersen, Britain's Margaret Thatcher, President Paul Laxalt of the United States and more. The series has covered aspects of the previous federal election, Andrew Peacock's leadership challenges and Laxalt's tumultuous re-election campaign against Gary Hart. I'd recommend tuning in for some classic unbiased, unshaken and unrelenting political commentary for which our organisation is renowned for.</p>"
+            return "<h3>'May 13th, 1988: Rubbery Figures defies political bias and delights'</h3><p>Opinion column by John Nicolson - Australian Broadcast Corporation.</p><p>I, like many others, was very concerned when Bob Somervaille decided to greenlight a new latenight parody about both domestic and international politics. I was met with a delightful surprise by the show's colourful and creative craftwork as well as a thoughtful and unique structure. The stories, separated into around 5 - 8 segments, star some notable political figures characterised by sock puppets including our own Bob Hawke, Treasurer Paul Keating, Opposition leader John Howard, former Queensland Premier Joh Bjelke-Petersen, Britain's Margaret Thatcher, President Paul Laxalt of the United States and more. The series has covered aspects of the previous federal election, Andrew Peacock's leadership challenges and Laxalt's tumultuous re-election campaign against Gary Hart. I'd recommend tuning in for some classic unbiased, unshaken and unrelenting political commentary for which our organisation is renowned for.</p>"
             } else if (quickstats[0] >= 531) {if (used != true) {
             setInterval(function () {
                 used = true;
