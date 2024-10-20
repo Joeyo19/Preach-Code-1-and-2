@@ -1,3 +1,5 @@
+RecReading=true
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -8,7 +10,7 @@ campaignTrail_temp.election_json = [
             "image_url": "https://i.imgur.com/Y4xk8E6.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/HamiltonJordan.jpg",
-            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1976 Election Books and Biographies</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/0670454613/amhius20-20\" target=\"_blank\">Jules Witcover - Marathon: The Pursuit of the Presidency, 1972-1976</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/1590843630/amhius20-20\" target=\"_blank\">The Election of 1976 and the Administration of Jimmy Carter</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B007V955ZS/amhius20-20\" target=\"_blank\">Craig Shirley - Reagan's Revolution: The Untold Story of the Campaign That Started It All</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B001KBY7YI/amhius20-20\" target=\"_blank\">Douglas Brinkley - Gerald R. Ford</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0805089578/amhius20-20\" target=\"_blank\">Julian E. Zelizer - Jimmy Carter</a>",
+            "recommended_reading": "<h4 style=\\\"margin-top: 0.5em;\\\">Preach - A New Campaign Trail Mod</h4><a href=\\\"https://www.britannica.com/biography/Frank-Church\\\" target=\\\"_blank\\\">Frank Church</a><br><h4>Lore</h4><p>Throughout 1968, Richard Nixon was paranoid that his running mate's, Spiro Agnew, tax fraud would become a major issue for the campaign. He used his influence to dissuade Maryland lobbyists from talking; the press thus never got wind of his behaviour and he never resigned. In 1974, H.R. Haldeman took full responsibility for the White House's involvement in the write tapping of the Watergate hotel. He was convicted by a grand jury and testified under oath that he acted alone. Nixon survived impeachment and resignation.<br><br><img src=\\\"https://cdn.britannica.com/21/181121-004-32ED6E25/Frank-Church-Pres-Jimmy-Carter-White-House-1977.jpg?s=1500x700&amp;q=85\\\" width=\\\"120px\\\"><br><br>Church performed well in the 1976 primaries as a result of his overwhelming opposition to Haldeman's conduct and his claim that Nixon was involved. He then procured help from progressive allies, Arizona Representative Mo Udall and Georgia Governor Jimmy Carter, to go onto to secure victory.</p><h4 style=\\\"margin-top: 0.5em;\\\">Credits</h4><h4 style=\\\"margin-top: 0.5em;\\\">Joeyo 19</h4><b>Creator, playtester, writer, coder</b>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": "Dan Bryan",
