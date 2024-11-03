@@ -9353,6 +9353,59 @@ campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/1BtEec5.png";
 campaignTrail_temp.candidate_last_name = "Church";
 campaignTrail_temp.running_mate_last_name = "Udall";
 
+const style_overwrite = document.createElement("style");
+style_overwrite.innerHTML = 
+`#campaign_sign {
+  background-color: #30A176;
+  border-color: #5cd6a8;
+}
+#campaign_sign p {
+  color: #ebfff5;
+}
+#menu_container {
+  background-color: #7389B5;
+  border-color: #7389B5;
+}
+#overall_result_container {
+  background-color: #ebfff5;
+  border-color: #000000;
+}
+#state_info h3 {
+  background-color: #ebfff5;
+  border-color: #000000;
+}
+#map_container {
+  background-color: #ebfff5;
+}
+#state_result_container {
+  background-color: #ebfff5;
+  border-color: #000000;
+}
+#state_result h3 {
+  background-color: #ebfff5;
+  border-color: #000000;
+}
+#overall_result h3 {
+  background-color: #ebfff5;
+  border-color: #000000;
+}`
+;
+document.head.appendChild(style_overwrite);
+
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .inner_window_question h3 {
+    background-color: #ebfff5;
+  }
+  .overlay_window h3 {
+    background-color: #ebfff5;
+    border-color: #431b19;
+  }
+`;
 
 
 campaignTrail_temp.jet_data = [{
