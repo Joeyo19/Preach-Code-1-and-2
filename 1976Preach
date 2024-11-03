@@ -140,7 +140,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 96,
         "fields": {
             "first_name": "Mo",
-            "last_name": "Udall UNPLAYABLE",
+            "last_name": "Udall",
             "election": 10,
             "party": "Democratic",
             "state": "Arizona",
@@ -153,7 +153,30 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>NOT CURRENTLY PLAYABLE - IS LIKELY TO BE ADDED</p>",
+            "description_as_running_mate": "<p>Mo Udall is serving as a US Representative from Arizona and is the reason you're the nominee.</p><p>Without what some saw as his premature decision to drop out from the Democratic primaries and endorse you, Frank Church wouldn't be the household name it is today. He's heavily involved in labor politics, if you choose him it'll take some concessions as he's otherwise eyeing up a Cabinet position. He'll help you in Arizona and  with unioners but might cost some support from the midwest.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 98,
+        "fields": {
+            "first_name": "Henry M.",
+            "last_name": "Jackson",
+            "election": 10,
+            "party": "Democrat",
+            "state": "Washington",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/Lm9oqU6.png",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>This would be unorthodox to say the least.</p><p>Henry \"Scoop\" Jackson has served as a Senator from Washington for over a decade and a half and was a chief opponent of yours in the primaries having promoted himself as a moderate on most issues notably toward the Vietnam war. Jackson is a skilled political operative, a fierce pragmatist and an experienced statesman but before all else, he is a human. He will not be as easy to tame as Udall or Carter, it will be your job to convince him to join the ticket. With Scoop serving as a weapon your campaign may become unstoppable, just as it may collapse if you don't thread the needle. If you want his help it will take major concessions nu presenting a more palatable and generic democratic campaign. You would also have to heavily placate both Jimmy Carter and Mo Udall, without whom you would not have won and to whom you have promised favours.</p><i>'For fools rush in where angels fear to tread.'</i>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -177,29 +200,6 @@ campaignTrail_temp.candidate_json = [
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
             "description_as_running_mate": "<p>NOT CURRENTLY PLAYABLE - MAY NOT BE ADDED</p><p>John Glenn became the first American to orbit the earth during the Space Race of the 1960s. Now serving as a Senator from Ohio, he could be crucial to winning that state in November. Unfortunately, his keynote speech at the national convention has just landed with a thud. He is relatively new to the Senate and still has some outsider appeal, and does not have a long history with any particular wing of the party.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 98,
-        "fields": {
-            "first_name": "Scoop",
-            "last_name": "Jackson UNPLAYABLE",
-            "election": 10,
-            "party": "Democrat",
-            "state": "Washington",
-            "priority": 8,
-            "description": "''",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/scoop-jackson-1976.jpg",
-            "electoral_victory_message": "''",
-            "electoral_loss_message": "''",
-            "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>NOT CURRENTLY PLAYABLE - MAY NOT BE ADDED</p><p>Henry \"Scoop\" Jackson is a Senator from Washington who also attempted to secure the 1976 Democratic nomination. He is a more traditional Democrat, favoring both high levels of social spending and a strong national defense policy. He is not popular with the left wing of the party, but would certainly help with moderates, and could swing his home state in the fall elections.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -487,6 +487,12 @@ campaignTrail_temp.temp_election_list = [
     }
 ]
 
+HistHexcolour=["#6B6BFF","#FF5C5C","#FFFF00","#00C100"];
+        HistName=["Frank Church","Spiro Agnew","Other Candidates","Eugene McCarthy"];
+        HistEV=[363,175,0,0];
+        HistPV=["41,760,141","37,351,693","1,037,262","908,380"];
+        HistPVP=["51.5%","46.1%","1.3%","1.1%"];
+
 jet_data = {
     "headerColor": "#30a176",
     "windowColor": "#7389b5",
@@ -501,7 +507,7 @@ jet_data = {
 //#startcode
 
 
-corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"Time to go to Church."</em></font>\n            ';
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="#c9ffeb"><em>"Time to go to Church."</em></font>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#30a176";
@@ -519,5 +525,49 @@ document.getElementById("header").src = "https://i.imgur.com/fDGgCmM.png";
 document.body.background = "https://i.imgur.com/j7dipiO.png";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#9fbffe!important;}</style>";
+
+$(".footer a").css({"color":"#fff4dd"});
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#fff4dd"
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #8593FF;
+  }
+  a:-webkit-any-link {
+      color: #7389B5;
+  }
+  .content_single {
+    border-color: #8593FF;
+  }
+  .container {
+    border: .3em solid #8593FF;
+  }
+  .footer {
+  	border-color: #8593FF;
+  }
+  .game_header {
+  	border-color: #8593FF;
+  }
+  .inner_window_front {
+  	background-color: #ebfff5;
+  	border-color: #ebfff5;
+  }
+  button {
+  	background-color: #30A176;
+  	border-color: #000000;
+  		border-top-color: #000000;
+  		border-right-color: #000000;
+  		border-bottom-color: #000000;
+  		border-left-color: #000000;
+  	border-style: solid;
+  	border-width: 1px;
+  }
+  select {
+  	background-color: #30A176;
+  }
+`;
+document.head.appendChild(style);
 
 //#endcode
